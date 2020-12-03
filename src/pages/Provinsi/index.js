@@ -3,7 +3,7 @@ import React from "react";
 const Provinsi = () => {
     return (
         <div>
-            <h1>Provinsi</h1>
+            <h4>Data di setiap Provinsi</h4>
         </div>
     );
 };
