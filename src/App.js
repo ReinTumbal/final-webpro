@@ -4,30 +4,30 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import { Global, Indo, Provinsi } from './pages'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
-function App() {
+const App = () => {
     return (
         <Router>
             <div>
-            <h1> Covid Tracker</h1>
+            <h1>Covid Tracker</h1>
+            <p><b>Aplikasi Sederhana Untuk Tracking Covid-19</b></p>
                 <nav>  
-                    <ul>
-                        <li>
+                    
+                        <tr>
                             <Link to="/Global">
                                 Global 
                             </Link>
-                        </li>
-                        <li>
+                        </tr>
+                        <tr>
                             <Link to="/Indo">
                                    Indonesia
                             </Link>
-                        </li>
-                        <li>
+                        </tr>
+                        <tr>
                             <Link to="/Provinsi">
                                        Provinsi
                             </Link>
-                        </li>
-                    </ul>
+                        </tr>
+                   
                 </nav>
             </div>
             <Switch>
