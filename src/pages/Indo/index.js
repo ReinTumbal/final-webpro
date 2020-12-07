@@ -1,7 +1,7 @@
 import React from "react";
 import BoxIndo from './BoxIndo'
 
-const Indonesia = () => {
+const Indo = () => {
     return (
         <div>
             <h4>jumlah kasus di Indonesia</h4>
@@ -10,4 +10,4 @@ const Indonesia = () => {
     );
 };
 
-export default Indonesia;
+export default Indo;

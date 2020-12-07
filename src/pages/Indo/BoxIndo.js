@@ -25,15 +25,15 @@ export default function BoxIndo(){
 return (
 <div className="container">
   
-  <h1 className="Box1">
+  <h1 className="cvd2">
   <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
   <p>Positif</p>
   </h1>
-  <h1 className="Box2">
+  <h1 className="cvd3">
   <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
   <p>Deaths</p>
   </h1>
-  <h1 className="Box3">
+  <h1 className="cvd1">
   <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
   <p>Recovered</p>
   </h1>
