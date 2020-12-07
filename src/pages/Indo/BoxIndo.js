@@ -12,7 +12,7 @@ export default function BoxIndo(){
       .get("https://indonesia-covid-19.mathdro.id/api")
       .then(response => {
         console.log(response)
-        setConfirmed(response.data.dirawat)
+        setConfirmed(response.data.perawatan)
         setRecovered(response.data.sembuh)
         setDeaths(response.data.meninggal)
         
@@ -25,15 +25,15 @@ export default function BoxIndo(){
 return (
 <div className="container">
   
-  <h1 className="cvd2">
+  <h1 className="box1">
   <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
   <p>Positif</p>
   </h1>
-  <h1 className="cvd3">
+  <h1 className="box2">
   <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
   <p>Deaths</p>
   </h1>
-  <h1 className="cvd1">
+  <h1 className="box3">
   <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
   <p>Recovered</p>
   </h1>

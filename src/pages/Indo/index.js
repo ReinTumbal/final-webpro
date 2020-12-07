@@ -4,7 +4,7 @@ import BoxIndo from './BoxIndo'
 const Indo = () => {
     return (
         <div>
-            <h4>jumlah kasus di Indonesia</h4>
+            <center><h1>Data Covid Indonesia</h1></center>
             <BoxIndo/>
         </div>
     );

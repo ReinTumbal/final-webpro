@@ -4,7 +4,7 @@ import BoxGlobal from './BoxGlobal'
  const Global = () => {
      return (
          <div>
-             <h4>Jumlah kasus seluruh dunia</h4>
+             <center><h1>Jumlah kasus seluruh dunia</h1></center>
              <BoxGlobal/>
          </div>
      );

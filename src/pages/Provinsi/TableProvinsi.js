@@ -23,21 +23,23 @@ return (
   <center>
 <table border="10">
                 <tr>
-                    <th><center>No.</center></th>
-                    <th><center>Provinsi</center></th>
-                    <th><center>Positif</center></th>
-                    <th><center>Sembuh</center></th>
-                    <th><center>Meninggal</center></th>
+                    <td><center>No.</center></td>
+                    <td><center>provinsi</center></td>
+                    <td><center>Positif</center></td>
+                    <td><center>Sembuh</center></td>
+                    <td><center>Meninggal</center></td>
          
                 </tr>
                  {dataPro.map((item, index) => {
                   return(
-                      <tr classNames="table">
-                          <th scope="row" key={item.fid}><center>{index + 1}.</center></th>
-                         <th> <center>{item.provinsi}</center></th>
-                          <th><center><NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></center></th>
-                          <th><center><NumberFormat value={item.kasusSemb} thousandSeparator={true} displayType={'text'}/></center></th>
-                         <th><center><NumberFormat value={item.kasusMeni} thousandSeparator={true} displayType={'text'}/></center></th>
+                      // <tr classNames="table">
+                      <tr>
+                      <td scope="row" key={item.fid}><center>{index + 1}.</center></td>
+                     
+                         <td> <center>{item.provinsi}</center></td>
+                          <td><center><NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></center></td>
+                          <td><center><NumberFormat value={item.kasusSemb} thousandSeparator={true} displayType={'text'}/></center></td>
+                         <td><center><NumberFormat value={item.kasusMeni} thousandSeparator={true} displayType={'text'}/></center></td>
                        </tr>
                  )
              })}

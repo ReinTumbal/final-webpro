@@ -24,6 +24,7 @@ export default function BoxGlobal(){
     }, []);
 
 return (
+
   <div className="container">
   
   <h1 className="box1">
@@ -40,6 +41,6 @@ return (
   </h1>
   
   </div>
-
+  
 )
 }

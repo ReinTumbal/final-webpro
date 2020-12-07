@@ -79,42 +79,5 @@ align-items: left;
 justify-content: left;
 }
 
-table tbody{
-  overflow-y: auto;
-  width: 100%;
-}
-table thead,
-table tbody,
-table tr,
-table td,
-table th {
-    display: block;
-   /* background-color: red;  */
-}
-table {
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-  border-color: rgb(0, 0, 0);
 
-  overflow-y: auto;
-  width: 62%;
-   max-height: 400px;
-  overflow-y: auto;
-  border-color: rgb(0, 0, 0);
-}
-table tbody{
-  max-height: 400px;
-  overflow-y: auto;
-  width: 100%;
-}
-table tbody th,
-table thead>tr>th {
-  float: left;
-  position: relative;
-}
-
-table, tr, td{
-  border: 1px solid #999;
-  padding: 8px;
-}
 

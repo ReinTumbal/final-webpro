@@ -4,7 +4,7 @@ import TableProvinsi from './TableProvinsi'
 const Provinsi = () => {
     return (
         <div>
-            <h4>Data di setiap Provinsi</h4>
+            <center><h1>Data di setiap Provinsi</h1></center>
            <TableProvinsi/>
         </div>
     );
