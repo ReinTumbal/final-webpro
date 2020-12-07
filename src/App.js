@@ -6,6 +6,7 @@ import { Global, Indo, Provinsi } from './pages'
 
 const App = () => {
     return (
+        <center>
         <Router>
             <div>
             <h1>Covid Tracker</h1>
@@ -42,7 +43,7 @@ const App = () => {
                 </Route>
             </Switch>
         </Router>
-        
+        </center>
     )
 }
 
