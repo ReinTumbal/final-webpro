@@ -21,13 +21,13 @@ export default function BoxIndo(){
 console.log (dataPro)
 return (
   <center>
-<table border="10">
+<table border="10" className='table1'>
                 <tr>
-                    <td><center>No.</center></td>
-                    <td><center>provinsi</center></td>
-                    <td><center>Positif</center></td>
-                    <td><center>Sembuh</center></td>
-                    <td><center>Meninggal</center></td>
+                    <th><center>No.</center></th>
+                    <th><center>provinsi</center></th>
+                    <th><center>Positif</center></th>
+                    <th><center>Sembuh</center></th>
+                    <th><center>Meninggal</center></th>
          
                 </tr>
                  {dataPro.map((item, index) => {

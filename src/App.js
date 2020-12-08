@@ -15,17 +15,17 @@ const App = () => {
                     
                         <tr>
                             <Link to="/Global">
-                                Global 
+                            Global
                             </Link>
                         </tr>
                         <tr>
                             <Link to="/Indo">
-                                   Indonesia
+                            Indonesia
                             </Link>
                         </tr>
                         <tr>
                             <Link to="/Provinsi">
-                                       Provinsi
+                            Provinsi
                             </Link>
                         </tr>
                    
